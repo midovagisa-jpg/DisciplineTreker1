@@ -2,24 +2,26 @@
   "name": "DISCIPLINE TRACKER",
   "short_name": "DISCIPLINE",
   "description": "Трекер привычек, упражнений и сна",
-  "start_url": "/DisciplineTreker1/index.html",
-  "scope": "/DisciplineTreker1/",
+  "start_url": "app.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#09090E",
   "theme_color": "#09090E",
-  "orientation": "portrait",
+  "orientation": "portrait-primary",
+  "lang": "ru",
+  "categories": ["health", "fitness", "lifestyle"],
   "icons": [
     {
-      "src": "icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
     },
     {
-      "src": "icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
     }
   ]
 }
